@@ -1,0 +1,27 @@
+# Secrets — NEVER commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Logs & runtime data
+logs/daily/
+logs/pnl_tracker.csv
+logs/state.json
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
